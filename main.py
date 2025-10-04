@@ -1,5 +1,5 @@
 import streamlit as st
-from langchain_core.memory import ConversationBufferMemory
+from langchain.memory import ConversationBufferMemory
 from utils import qa_agent
 
 # OpenAI 例外は環境差があるため、まずは広めに握る
